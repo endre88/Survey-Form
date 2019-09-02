@@ -1,0 +1,100 @@
+        * {
+            margin:0;
+            padding:0;
+            font-size:24px;
+            font-family: Dosis, sans-serif;
+			  	box-sizing: border-box; /*nem mozog a div*/
+        }
+		 body{
+			 background-color: rgba(119, 181, 204, 0.99);
+			 margin-bottom:1rem;
+		 }
+.all{
+	margin-bottom:1rem;
+}
+        #title {
+			  font-size:1.2em;
+			  font-weight:bold 800;
+			  text-align: center;
+			  margin:20px;
+        }
+        #survey-form{
+			  	width:900px;
+			   margin:10px auto 0px;
+            background-color: beige;
+			  	border-radius:8px;
+		 }
+		 #survey-form div{
+		 	width:50%;
+			margin:12px 0;
+			/*background-color:red;
+			float:left;
+			padding:0 2px;*/
+		 }
+		#description{
+			color:blue;
+			text-align:center;
+			font-size:0.8em;
+			font-weight:100;
+			padding:30px 0 10px;
+		}
+		input[type=text],
+		input[type=number],
+		input[type=email],
+		select,
+		input[type=textarea]
+		{
+			width:60%;
+			height:30px;
+			font-size:0.7em;
+			border-radius:2px;
+			box-shadow:none;
+			border:solid 1px #ccc;
+		}
+		input[type=radio]{
+			height:15px;
+		}
+		#radio label{
+			font-size:0.7em;
+			padding-left:5px;
+		}
+		.label{
+			text-align:right;
+			padding-right:20px;
+		}
+		.label label{
+			font-size:0.75em;
+		}
+		.star{
+			font-size:0.4em;
+		}
+		option{
+			font-size:0.9em;
+		}
+		#submit{
+			background-color:white;
+			width:11%;
+			height:36px;
+			margin:1rem 45%;
+			border:none;
+			border-radius:2px;
+			background-color:#59ACE0;
+			color:white;
+			font-size:0.8em;
+		}
+
+		.long{
+			padding-left:80px!important;
+		}
+		#checkbox label{
+			font-size:0.7em;
+		}
+		input[type=textarea]{
+			height:80px;
+		}
+		textarea{
+			font-size:0.65em;
+		}
+
+
+	
